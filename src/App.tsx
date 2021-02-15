@@ -30,7 +30,6 @@ function App() {
         const tempRecipe = {...recipe};
         tempRecipe.steps[index].completed = !tempRecipe.steps[index].completed;
         setRecipe(tempRecipe);
-        console.log(`Step ${index}  from ./App.tsx`);
     }
 
     function updateRecipe() {

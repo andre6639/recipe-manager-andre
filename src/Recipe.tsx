@@ -20,7 +20,7 @@ function Recipe({title, description, steps, stepClick}: RecipeProps) {
                 <li 
                 key={index} 
                 onClick={() => stepClick(index)}
-                className={step.completed ?'linethrough' : ''}
+                className={step.completed ? 'line-through' : '' }
                 >
                     {step.text}
                 </li>
